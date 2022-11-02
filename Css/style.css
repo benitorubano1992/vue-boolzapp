@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*impostazione base layout*/
+.player-wrapper{
+    width:100%;
+    height:100vh;
+    background-color: aqua;/* debug*/
+    display:flex;
+    align-items: center;
+    
+}
+.web-content{
+    width:80%;
+    margin:0 auto;
+    height:95%;
+    border:1px solid red;/*debug*/
+    background-color: yellow;/*debug*/
+    display:flex;
+}
+.sidebar{
+    width:400px;
+    height:100%;
+    background-color: blue;
+}
+.main-content{
+    background-color: green;/*debug*/
+    width:calc(100% - 200px);
+    height:100%;
+}
